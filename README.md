@@ -1,61 +1,11 @@
 # YOUTUBECLONE
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>YouTube Clone</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<style>
-  body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+Description:
 
-header {
-  background: #202020;
-  color: white;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+This project is a simplified clone of YouTube, designed for learning purposes. It mimics the core features of YouTube, including video listing, search functionality, and a user-friendly interface for browsing videos. Users can explore video thumbnails, click to watch content (embedded or linked), and filter results using a search bar.
 
-#search {
-  flex-grow: 1;
-  padding: 5px;
-}
+🔧 Features:
+✅ Video listing with thumbnails and titles
 
-main {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+💻 Responsive design with HTML/CSS/JavaScript
 
-.video-card {
-  width: 300px;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.video-card img {
-  width: 100%;
-}
-</style>
-
-<body>
-  <header>
-    <h1>YouTube Clone</h1>
-    <input type="text" id="search" placeholder="Search">
-    <button onclick="searchVideos()">Search</button>
-  </header>
-
-  <main id="video-container">
-    <!-- Videos will appear here -->
-  </main>
-
-  <script src="script.js"></script>
-</body>
-</html>
+🛠 Easily extendable with backend or video uploads
